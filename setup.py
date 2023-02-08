@@ -8,7 +8,7 @@ package_name = "tidepool_data_science_project"  # this is the thing you actually
 
 setup(
     name=project_name,
-    version=version,
+    version=version_string,
     author=author,
     author_email=author_email,
     packages=[package_name],  # add subpackages too
