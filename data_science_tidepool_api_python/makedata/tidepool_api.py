@@ -13,7 +13,9 @@ import sys
 import requests
 
 import logging
-from data_science_tidepool_api_python.util import DATESTAMP_FORMAT
+#from data_science_tidepool_api_python.util import DATESTAMP_FORMAT
+#quickfix because of strange error
+DATESTAMP_FORMAT = "%Y-%m-%d"
 
 logger = logging.getLogger(__name__)
 
